@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
+terraform-destroy-on-action-main
+docker-build-push.sh
+.github
 
 # C extensions
 *.so

@@ -1,0 +1,21 @@
+# destroy.yml
+name: 'Create SOCI INDEX'
+description: 'Create SOCI INDEX'
+branding:
+  icon: 'Circle'
+  color: 'white'
+inputs:
+  org_name:
+    description: 'In the format of <org>'
+    required: true
+    default: 'md1810'
+  repo_name:
+    description: 'In the format of <repo>'
+    required: true
+    default: 'terraform-on-git-action'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  # args:
+  #   - ${{ inputs.org_name }}
+  #   - ${{ inputs.repo_name }}
